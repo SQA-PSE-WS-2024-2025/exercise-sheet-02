@@ -4,7 +4,8 @@ package de.unistuttgart.iste.sqa.pse.sheet02.homework;
  * This class implements {@link InternalHomeworkMysteriousHamsterGame#hamsterRun()} method that runs
  * the {@code doSomething} methods on a mysterious hamster.
  *
- * @author (Your name)
+ * @author Finn Österreicher 3777877 st193897@stud.uni-stuttgart.de
+ * @author Tim Zimmermann 3787155 st192571@stud.uni-stuttgart.de
  *
  */
 public final class HomeworkMysteriousHamsterGame extends InternalHomeworkMysteriousHamsterGame {

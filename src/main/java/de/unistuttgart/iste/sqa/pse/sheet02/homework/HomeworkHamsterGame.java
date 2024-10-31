@@ -3,8 +3,9 @@ package de.unistuttgart.iste.sqa.pse.sheet02.homework;
 /**
  * Describe the class HomeworkHamsterGame here.
  *
- * @author Name: Finn Österreicher - Matrikelnummer: 3777877 - E-Mail: st193897@stud.uni-stuttgart.de
- * @version v01
+ * @author Finn Österreicher 3777877 st193897@stud.uni-stuttgart.de
+ * @author Tim Zimmermann 3787155 st192571@stud.uni-stuttgart.de
+ *
  */
 public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 

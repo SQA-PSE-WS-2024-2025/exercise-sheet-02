@@ -8,7 +8,8 @@ import de.hamstersimulator.objectsfirst.external.model.Hamster;
  *
  * Class for exercise 3 on sheet 02.
  *
- * @author (Your name)
+ * @author Finn Österreicher 3777877 st193897@stud.uni-stuttgart.de
+ * @author Tim Zimmermann 3787155 st192571@stud.uni-stuttgart.de
  *
  */
 public final class MysteriousHamster {
@@ -58,7 +59,7 @@ public final class MysteriousHamster {
 
 	/**
 	 * Returns the Step Counter
-	 * @return int stepCounter
+	 * @return stepCounter Hamster Step Counter (Integer)
 	 */
 	int getStepCounter() {
 		return stepCounter;
