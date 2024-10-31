@@ -60,7 +60,7 @@ public final class MysteriousHamster {
 	 * Returns the Step Counter
 	 * @return int stepCounter
 	 */
-	int returnStepCounter() {
+	int getStepCounter() {
 		return stepCounter;
 	}
 
