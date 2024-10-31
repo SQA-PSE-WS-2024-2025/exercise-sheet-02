@@ -10,7 +10,6 @@ package de.unistuttgart.iste.sqa.pse.sheet02.homework;
 public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 
 	/**
-	 * void function without input params.
 	 * Turns paule to the right by turning him left three times.
 	 */
 	void turnRight(){
@@ -20,7 +19,6 @@ public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 	}
 
 	/**
-	 * void function without input params.
 	 * Turns paule around by turning left twice.
 	 */
 	void turnAround(){
@@ -28,8 +26,8 @@ public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 		paule.turnLeft();
 	}
 	/**
-	 * @input: int grainCount = current grainCount that is returned
-	 * @return: int grainCount = input GrainCount + Grains picked
+	 * @param grainCount = current grainCount that is returned
+	 * @return int grainCount = input GrainCount + Grains picked
 	 * This function lets paule walk until he reaches a wall in front of him. He also picks up every grain on his way
 	 */
 	int moveAndPickWhileClear(int grainCount){
