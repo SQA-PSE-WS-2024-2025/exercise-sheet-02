@@ -24,70 +24,72 @@ public final class MysteriousHamster {
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Turns the hamster to the left.
 	 */
-	void doSomething1() {
+	void turnHamsterLeft() {
 		hamster.turnLeft();
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Moves the hamster, increases the stepCounter and prints the stepCounter.
 	 */
-	void doSomething2() {
+	void moveHamsterAndCount() {
 		hamster.move();
 		stepCounter++;
 		hamster.write("I have already walked " + stepCounter + " steps.");
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Turns the hamster around by turning him left twice.
 	 */
-	void doSomething3() {
+	void turnHamsterAround() {
 		hamster.turnLeft();
 		hamster.turnLeft();
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Turns the hamster to his right by turning him left three times.
 	 */
-	void doSomething4() {
+	void turnHamsterRight() {
 		hamster.turnLeft();
 		hamster.turnLeft();
 		hamster.turnLeft();
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Returns the Step Counter
+	 * @return int stepCounter
 	 */
-	int doSomething5() {
+	int returnStepCounter() {
 		return stepCounter;
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Hamster writes the stepCounter
 	 */
-	void doSomething6() {
+	void hamsterWriteStepCounter() {
 		hamster.write(stepCounter.toString());
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Hamster picks up a grain
 	 */
-	void doSomething7() {
+	void hamsterPickGrain() {
 		hamster.pickGrain();
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Hamster writes 'I'm done! :)'
 	 */
-	void doSomething8() {
+	void hamsterWriteDone() {
 		hamster.write("I'm done! :)");
 	}
 
 	/**
-	 * Please describe this method here.
+	 * Hamster moves, increases the step counter and puts all grains down.
+	 * Then he moves again and increases the step counter.
 	 */
-	void doSomething9() {
+	void hamsterMoveDropGrainMove() {
 		hamster.move();
 		stepCounter++;
 		while (!hamster.mouthEmpty()) {
