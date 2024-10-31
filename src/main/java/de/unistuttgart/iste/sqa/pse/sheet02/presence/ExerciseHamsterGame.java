@@ -12,7 +12,9 @@ public class ExerciseHamsterGame extends InternalExerciseHamsterGame {
 	 * the east after this operation got executed.
 	 */
 	public void turnRight() {
-		// TODO your code for A4 goes here.
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
 	}
 
 	public Hamster getHamster() {
@@ -21,6 +23,20 @@ public class ExerciseHamsterGame extends InternalExerciseHamsterGame {
 
 	@Override
 	void hamsterRun() {
-		// TODO your code for A3 goes here.
+		int grainCount = 0;
+		while(paule.frontIsClear()){
+			if(grainCount == 5){
+				paule.putGrain();
+				grainCount = 0;
+			}
+			paule.move();
+			if(paule.grainAvailable()){
+				paule.pickGrain();
+				grainCount++;
+			}
+
+			paule.write("My name is Paule!");
+		}
+		// TODO your code for A4 goes here.
 	}
 }
